@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+}
+.container {
+    background-color: cornsilk;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: coral;
+}
+.header h1 {
+    font-family: Tahoma;
+    font-weight:normal;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.nav {
+    padding: 1px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+a,a:visited  {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover,a:active {
+    color: crimson;
+}
+
+.sidebar {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 300px;
+}
+
+.sidebar article {
+    background-color: lightskyblue;
+    margin: 10px;
+}
+
+.jumbotron {
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight:normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+.elements {
+    margin-left: 350px;
+    display: flex;
+    text-align: justify;
+}
+
+.column {
+    flex: 1;
+}
+
+.col1 {
+    padding: 10px;
+    background-color: mediumseagreen;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.col2 {
+    padding: 10px;
+    background-color: mediumslateblue;
+    margin-right: 30px;
+    margin-top: 10px;
+}
